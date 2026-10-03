@@ -1,3 +1,4 @@
+import Button from "@/components/Button";
 import InputBox from "@/components/InputBox";
 
 export default function Signup() {
@@ -8,8 +9,10 @@ export default function Signup() {
           <InputBox placeholder="email" />
         </div>
         <div>
-        <InputBox placeholder="password" />
-
+          <InputBox placeholder="password" />
+        </div>
+        <div className="mt-4">
+            <Button text="submit" />
         </div>
       </div>
     </div>
