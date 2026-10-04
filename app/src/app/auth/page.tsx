@@ -4,7 +4,9 @@ import InputBox from "@/components/InputBox";
 export default function Signup() {
   return (
     <div>
-      <div className=" mx-170 mt-20 py-40 rounded-2xl flex-col flex p-5 border justify-center items-center">
+      <div className=" mx-196 mt-20 py-40 rounded-2xl flex-col flex p-5 border justify-center items-center
+          
+      ">
         <div>
           <InputBox placeholder="email" />
         </div>
@@ -12,7 +14,7 @@ export default function Signup() {
           <InputBox placeholder="password" />
         </div>
         <div className="mt-4">
-            <Button text="submit" />
+          <Button text="submit" />
         </div>
       </div>
     </div>
